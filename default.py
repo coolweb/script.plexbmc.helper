@@ -46,7 +46,7 @@ sys.path.append(BASE_RESOURCE_PATH)
 PLEXBMC_VERSION="3.1.0"
 
 from listener import *
-import plexgdm
+import plexGDM
 
 def printDebug( msg, functionname=True ):
     if g_debug == "true":
